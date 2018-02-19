@@ -34,10 +34,12 @@ background-color: #666666;
     border-top: 5px solid lavender;
 
 }
+
 .centerContent {
  text-align: center;
  color: white;
 }
+
 .main {
     background-color: #ccc;
     background-image: url("../../assets/images/webBackground.jpg") !important;
@@ -48,11 +50,11 @@ background-color: #666666;
     display: flex;
     justify-content: space-around;
     position: relative;
-    height: 70px;
-    background-color: white;
+    height: 100px;
+    background-color: lavender;
     top: 0;
     width: 100%;
-    background-color: #666666;
+    border-bottom: 2px solid #666666;
     margin-bottom: 50px;
 }
 
@@ -60,15 +62,17 @@ background-color: #666666;
     display: flex;
     justify-content: space-around;
     position: absolute;
-    right: 28%;
+    right: 23%;
     top: 1;
+    margin-top: 10px;
   
 }
 
 .buttons div {
-    padding: 20px 10px 10px 10px;
-    background-color: lavender;
+    padding: 20px 20px 10px 10px;
     height: 40px;
+    font-weight: bold;
+    margin: 0 20px 0 20px;
 }
 
 a:link {
@@ -86,19 +90,18 @@ a:active {
     position: absolute;
     left: 0;
     top: 0;
-    margin-left: 80px;
-    height: 50px;
-    width: 15%;
-    background-color: lavender;
-    font-family: 'Georgia', Times, Times New Roman, serif;
+    margin-left: 25px;
+    margin-top: 10px;
+    width: 550px;
     color: #666666;
     padding: 10px;
 }
 
 .name h1 {
-    font-size: 38px;
+    font-size: 58px;
     font-family: fantasy;
     text-align: center;
+    font-weight: bold;
 }
 
 
@@ -115,10 +118,16 @@ a:active {
  
 }
 
-h2 {
-    font-family: 'Georgia', Times, Times New Roman, serif;
-    color: lavender;
+.imgSocial1 {
+    width: 60px;
+    height: auto;
 }
+
+.imgSocial2 {
+    width: 64px;
+    height: auto;
+}
+
 
 hr {
     border: 3px dashed white;
@@ -128,11 +137,45 @@ hr {
     color: whitesmoke;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     font-size: 16px;
+    line-height: 2;
 }
 .headings2 {
 
     color: whitesmoke;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     font-size: 28px;
+    font-weight: 300;
     
 }
+.headings2 a:hover{
+
+    opacity: 0.8;
+    
+    }
+ #submit {
+     width: 100px;
+     height: 50px;
+     background-color: black;
+     border: none;
+ }
+
+ #submit:hover {
+     background-color: darkorchid;
+ }
+
+ #form {
+     position: relative;
+     width: 500px;
+
+ }
+
+ input {
+     width: 595px;
+     height: 30px;
+ }
+
+ textarea {
+     height: 150px;
+     width: 595px;
+
+ }
