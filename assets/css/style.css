@@ -32,6 +32,7 @@ background-color: #666666;
     width: 100%;
     background-color: #666666;
     border-top: 5px solid lavender;
+    z-index: 10;
 
 }
 
@@ -128,6 +129,10 @@ a:active {
     height: auto;
 }
 
+.imgSocial3 {
+    width: 67px;
+    height: auto;
+}
 
 hr {
     border: 3px dashed white;
@@ -178,4 +183,35 @@ hr {
      height: 150px;
      width: 595px;
 
+ }
+
+ .row {
+     display: flex;
+     justify-content: space-around;
+ }
+ .row2 {
+     display: flex;
+     justify-content: flex-start;
+     margin-left: 10px;
+ }
+ .portfolioImg {
+     z-index: 1;
+     position: relative;
+     margin: 15px;
+ }
+
+ .imgText {
+     position: absolute;
+     top: 70%;
+     z-index: 5;
+     width: 100%;
+     background-color: lavender;
+     height: 45px;
+     color: #666666;
+     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+     font-size: 20px;
+     text-align: center;
+     vertical-align: middle;
+     font-weight: bold;
+     padding-bottom: 10px;
  }
