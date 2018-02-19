@@ -3,8 +3,8 @@
     display: flex;
     justify-content: space-around;
     width: 960px;
-   /* border: 1px solid red; */
    padding: 0 10px 0 10px;
+   flex: 1;
 
 }
 
@@ -26,13 +26,12 @@ background-color: #666666;
     margin: 10px;
 }
 .footer {
-    position: fixed;
-    bottom: 0;
     height: 70px;
     width: 100%;
     background-color: #666666;
     border-top: 5px solid lavender;
     z-index: 10;
+    margin-top: 50px;
 
 }
 
@@ -41,11 +40,6 @@ background-color: #666666;
  color: white;
 }
 
-.main {
-    background-color: #ccc;
-    background-image: url("../../assets/images/webBackground.jpg") !important;
-    
-}
 
 .nav {
     display: flex;
@@ -215,3 +209,14 @@ hr {
      font-weight: bold;
      padding-bottom: 10px;
  }
+
+ .main {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    background-color: #ccc;
+    background-image: url("../../assets/images/webBackground.jpg") !important;
+    background-size: contain;
+    
+    
+}
